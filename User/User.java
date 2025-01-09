@@ -7,7 +7,11 @@ public class User {
     private String email;
     private String userType;
 
-    public User() {
+    public User(String email, String password, String userID, String userType) {
+        this.email = email;
+        this.password = password;
+        this.userID = userID;
+        this.userType = userType;
     }
 
     public String getUserID() {
